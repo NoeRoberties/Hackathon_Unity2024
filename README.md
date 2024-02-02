@@ -1,8 +1,8 @@
-# Hackathon Unity réseau
+# Hackathon Unity réseau fait avec Diego Pintat-gil
 
 ### PRÉSENTATION
 
-Durant cet hackathon l’objectif sera de créer un début de jeu multijoueur en utilisant la librairie mirror. Vous êtes libre de choisir quel type de jeu vous voulez faire. 
+Durant cet hackathon l’objectif sera de créer un début de jeu multijoueur en utilisant la librairie mirror. Vous êtes libre de choisir quel type de jeu vous voulez faire.
 
 ### PRÉREQUIS
 
