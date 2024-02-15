@@ -11,7 +11,9 @@ public class player :  NetworkBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+         if (!isLocalPlayer) {
+            PlayerCamera.enabled = false;
+        }
     }
 
     private void OnEnable()
@@ -23,9 +25,7 @@ public class player :  NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isLocalPlayer) {
-            PlayerCamera.enabled = false;
-        }
+       
         if (!isLocalPlayer)
             return;
         
@@ -49,6 +49,5 @@ public class player :  NetworkBehaviour
             transform.position += direction* Time.deltaTime;
             Debug.Log("left move");
         }
-}
-
+    }
 }

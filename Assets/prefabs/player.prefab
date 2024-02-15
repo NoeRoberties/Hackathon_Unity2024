@@ -173,7 +173,7 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
-  speed: 2
+  speed: 10
   PlayerCamera: {fileID: 4825592333540067493}
 --- !u!95 &8211668268619495233
 Animator:
